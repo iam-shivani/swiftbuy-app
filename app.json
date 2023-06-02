@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "SwiftBuy",
+    "slug": "swiftbuy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/swiftbuy_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash_new.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/swiftbuy_logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.shivanichaudhari.swiftbuy"
+    },
+    "web": {
+      "favicon": "./assets/swiftbuy_logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d4771b7a-dbbc-47da-b0d4-0945c6d5c698"
+      }
+    }
+  }
+}
